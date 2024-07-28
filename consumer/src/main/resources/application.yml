@@ -1,0 +1,8 @@
+
+dubbo:
+  application:
+    name: springboot-consumer
+server:
+  error:
+    include-message: always
+  port: 8090
