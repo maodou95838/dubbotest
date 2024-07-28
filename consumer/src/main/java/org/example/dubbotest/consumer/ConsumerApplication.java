@@ -34,7 +34,7 @@ public class ConsumerApplication {
     }
 
 
-    @Reference(url="dubbo://192.168.3.99:20880/org.example.provider.api.IHelloService")
+    @Reference
     private IHelloService service;
 
 
